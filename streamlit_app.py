@@ -18,7 +18,7 @@ with st.expander('Data'):
 
 with st.expander('Data visulaization'):
   st.scatter_chart(data=df,x='bill_length_mm',y='body_mass_g',color='species')
-with st.slider:
+with st.sidebar:
   st.header('input features')
   island = st.selection('Island',('Biscore','Dream','Torgersen'))
   
